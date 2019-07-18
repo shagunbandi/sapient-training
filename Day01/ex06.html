@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Demo</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bootstrap Demo</h1>
+        <div id=buttons>
+            <button class="btn btn-primary" >My Button</button>
+            <button class="btn btn-secondary">My Button</button>
+            <button class="btn btn-success">My Button</button>
+            <button class="btn btn-danger">My Button</button>
+            <button class="btn btn-warning">My Button</button>
+            <button class="btn btn-info">My Button</button>
+        </div>
+        <br />
+        <div>
+            <button class="btn btn-outline-primary"><a href="#alertdiv">Alerts</a></button>
+            <button class="btn btn-outline-secondary"><a href="#tablediv">Table</a></button>
+            <button class="btn btn-outline-success">My Button</button>
+            <button class="btn btn-outline-danger">My Button</button>
+            <button class="btn btn-outline-warning">My Button</button>
+            <button class="btn btn-outline-info">My Button</button>
+
+        </div>
+        <br/>
+        <div id="alertdiv" class="alert alert-info">Hellew !!</div>
+        <div class="alert alert-success">Hellew !!</div>
+        <div class="alert alert-warning">Hellew !!</div>
+        <div class="alert alert-danger">Hellew !!</div>
+
+        <ul class="list-group">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2
+                <ul class="list-group">
+                    <li class="list-group-item">Sub Item 1</li>
+                    <li class="list-group-item">Sub Item 2</li>
+                    <li class="list-group-item active">Sub Item 3</li>
+                    <li class="list-group-item">Sub Item 4</li>
+                    <li class="list-group-item">Sub Item 5</li>
+                </ul>
+            </li>
+            <li class="list-group-item">Item 3</li>
+            <li class="list-group-item">Item 4</li>
+            <li class="list-group-item">Item 5</li>
+            <li class="list-group-item">Item 6</li>
+        </ul>
+
+        <br/>
+
+        <table id="tablediv" class="table table-bordered table-striped table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Sl No.</th>
+                        <th rowspan="2">Name</th>
+                        <th colspan="3">Contact Details</th>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Shagun</td>
+                        <td>Indore</td>
+                        <td>mail@website.com</td>
+                        <td>+91-9932538111</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Vaibhaw</td>
+                        <td>Bihar</td>
+                        <td>mail@website.com</td>
+                        <td>+91-9987987989</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Jindal</td>
+                        <td>Ranchi</td>
+                        <td>mail@website.com</td>
+                        <td>+91-9876543212</td>
+                    </tr>
+                </tbody>
+            </table>
+
+    </div>
+</body>
+
+</html>

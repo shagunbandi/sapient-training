@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SlideShow</title>
+
+    <script src="./assets/jquery/jquery-3.4.1.js"></script>
+
+    <script>
+
+        $(function () {
+            $("div#images>img")
+                .addClass("slide")
+                .click(function () {
+                    var img = $(this);
+                    img.fadeOut(1000, function () {
+                        img.css("display", "block")
+                        $("div#images").prepend(img);
+                    });
+                });
+        });
+
+        
+
+    </script>
+
+    <style>
+        .slide {
+            position: absolute;
+            width: 640px;
+            height: 480px;
+            /* transition-duration: 500ms; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Slideshow</h1>
+    <hr>
+    <div id="images">
+        <img src="./assets/images/1.jpg" alt="1.jpg">
+        <img src="./assets/images/2.jpg" alt="2.jpg">
+        <img src="./assets/images/3.jpg" alt="3.jpg">
+        <img src="./assets/images/4.jpg" alt="4.jpg">
+        <img src="./assets/images/5.jpg" alt="5.jpg">
+    </div>
+</body>
+
+</html>

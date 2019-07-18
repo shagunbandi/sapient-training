@@ -1,0 +1,22 @@
+#puzzle > button {
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    font-size: 20pt;
+    cursor: pointer;
+    color: grey;
+    background: black;
+}
+
+/* #puzzle > button:hover {
+    
+} */
+
+.clickBut:hover {
+    transition-duration: 100ms;
+    transform: scale(1.1);
+}
+
+body {
+    background: lightgrey;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #ffe6e6;
+}
+
+h3 {
+    color: brown;
+    font-size: 3em;
+    font-family: 'Bahianita', cursive;
+}
+
+ul>li {
+    border: 1px solid darkgoldenrod
+}
+
+#lis2>li {
+    background-color: #e6e685;
+    border: 2px dashed darkgoldenrod
+}
+
+.bordered {
+    border: 1px dotted green;
+    border-radius: 20%;
+}
+
+.medium {
+    width: 500px;
+}
+
+.imageclass {
+    width: 20%;
+    margin: 20px;
+    transition-duration: 500ms;
+    
+}
+
+.imageclass:hover {
+    box-shadow: 10px 10px 50px red;
+    transition-duration: 500ms;
+    transform: rotate(15deg);
+}
+
+
